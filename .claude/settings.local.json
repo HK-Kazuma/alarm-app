@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx create-expo-app@latest . --template blank-typescript)",
+      "Read(//c/Users/aston/claude-code/**)",
+      "Bash(npx create-expo-app@latest alarm_app_temp --template blank-typescript)",
+      "Bash(cp -r \"C:/Users/aston/claude-code/alarm_app_temp/\"* \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(cp \"C:/Users/aston/claude-code/alarm_app_temp/\".* \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(rm -rf \"C:/Users/aston/claude-code/alarm_app_temp\")",
+      "Bash(cp \"C:/Users/aston/claude-code/alarm_app_temp/.gitignore\" \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(cp \"C:/Users/aston/claude-code/alarm_app_temp/package.json\" \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(cp \"C:/Users/aston/claude-code/alarm_app_temp/package-lock.json\" \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(cp \"C:/Users/aston/claude-code/alarm_app_temp/tsconfig.json\" \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(cp -r \"C:/Users/aston/claude-code/alarm_app_temp/.git\" \"C:/Users/aston/claude-code/alarm_app/\")",
+      "Bash(npx expo:*)",
+      "Bash(rm -rf node_modules)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 27584 //F)",
+      "Bash(npx expo-doctor:*)"
+    ]
+  }
+}
